@@ -1,4 +1,4 @@
-// 전체 시간복잡도: O(1) + O(1) + O(n) + O(1) = O(n)
+// 전체 시간복잡도: O(1) + O(1) + O(1) + O(1) = O(1)
 // 전체 공간복잡도: O(n)
 
 class MyCircularQueue(private val k: Int) {
