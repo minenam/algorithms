@@ -1,17 +1,5 @@
 import { ListNode } from './list-node';
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
- */
-
 // 두 개의 정렬된 링크드 리스트를 병합
 // 시간 복잡도: O(n + m) - n, m은 각 리스트의 길이
 function mergeTwoLists(
